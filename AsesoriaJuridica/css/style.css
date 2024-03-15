@@ -171,7 +171,7 @@ a {
 .banner-main{ 
 	width: 100%;
 	float: left;
-	background-image:url(../images/banner_hamer.jpg);
+	background-image:url(../images/banner_hamer_.jpg);
 	height: auto;
 	padding-top: 20px;
 	padding-bottom: 226px; 
@@ -633,4 +633,9 @@ button.main_bt {
 {
 	backdrop-filter: blur(10px);
 
+}
+
+.card
+{
+	height: 100%;
 }
