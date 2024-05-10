@@ -640,3 +640,22 @@ button.main_bt {
 	height: 100%;
 }
 
+.correo
+{
+	background-color: whitesmoke;
+	border-radius: 7px;
+}
+
+.caja
+{
+	border-radius: 10px;
+}
+
+.contenedor
+{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%);
+}
