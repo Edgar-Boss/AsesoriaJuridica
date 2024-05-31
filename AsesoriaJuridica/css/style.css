@@ -659,3 +659,40 @@ button.main_bt {
 	left:50%;
 	transform: translate(-50%);
 }
+
+.redes {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.redes li {
+    width: 9vw; /* Establece el ancho de los elementos */
+    height: 9vw; /* Establece la altura de los elementos para que sean cuadrados */
+    display: flex; /* Usa flexbox para centrar el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    margin: 1.5vw;
+    font-size: 3.6vw;
+    transition: .5s;
+}
+
+.redes li i {
+    color: #fff; /* Cambia el color de los iconos a blanco */
+}
+
+.redes li:nth-child(1) {
+    background: #1877f2;
+}
+
+.redes li:nth-child(2) {
+    background: #25d366;
+}
+
+.redes li:hover 
+{
+	transform: translateY(-1.2vw);
+	box-shadow: 0 1.5vw 1.5vw rgb(0, 0, 0,.5);
+}
